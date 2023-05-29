@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(11, 247, 78);
+            margin-bottom: 10px;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .rect {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+            height: 200px;
+            width: 200px;
+        }
+        
+        .rectangle:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="soal">
+        <h1 style="margin-left:20px; font-size:24px">Soal</h1>
+        <p style="font-size: 25px; margin-left:35px;">Buatlah tiga persegi panjang. Mengklik persegi panjang mana pun akan mengingatkan nama persegi panjang tersebut.</p>
+    </div>
+    <div class="rect">
+        <h4 style="text-align: center;">Hasil:</h4>
+
+        <div class="rectangle" onclick="alert('Rectangle 1')">Rectangle 1</div>
+        <div class="rectangle" onclick="alert('Rectangle 2')">Rectangle 2</div>
+        <div class="rectangle" onclick="alert('Rectangle 3')">Rectangle 3</div>
+    </div>
+</body>
+
+</html>
